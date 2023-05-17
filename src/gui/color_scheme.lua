@@ -1,0 +1,24 @@
+--------------------------------------------------------------------------------
+-- Define the color scheme for the game.
+-- Base16 Paraiso
+-- https://chriskempson.github.io/base16/
+
+local color_scheme = {}
+color_scheme.BASE_00 = { 0x2f, 0x1e, 0x2e }
+color_scheme.BASE_01 = { 0x41, 0x32, 0x3f }
+color_scheme.BASE_02 = { 0x4f, 0x42, 0x4c }
+color_scheme.BASE_03 = { 0x77, 0x6e, 0x71 }
+color_scheme.BASE_04 = { 0x8d, 0x86, 0x87 }
+color_scheme.BASE_05 = { 0xa3, 0x9e, 0x9b }
+color_scheme.BASE_06 = { 0xb9, 0xb6, 0xb0 }
+color_scheme.BASE_07 = { 0xe7, 0xe9, 0xdb }
+color_scheme.BASE_08 = { 0xef, 0x61, 0x55 }
+color_scheme.BASE_09 = { 0xf9, 0x9b, 0x15 }
+color_scheme.BASE_0A = { 0xfe, 0xc4, 0x18 }
+color_scheme.BASE_0B = { 0x48, 0xb6, 0x85 }
+color_scheme.BASE_0C = { 0x5b, 0xc4, 0xbf }
+color_scheme.BASE_0D = { 0x06, 0xb6, 0xef }
+color_scheme.BASE_0E = { 0x81, 0x5b, 0xa4 }
+color_scheme.BASE_0F = { 0xe9, 0x6b, 0xa8 }
+
+return color_scheme

@@ -1,0 +1,38 @@
+---
+name: Paraiso
+version: '1.0'
+uuid: D8D5E82E-3D5B-46B5-B38E-8C841C21347D
+menus:
+  background: 0x4F424C
+  text: 
+  caret: 0xF8F8F0
+  foreground: 0xF8F8F2
+  invisibles: 0x3B3A32
+  lineHighlight: 0x3E3D32
+  selection: 0x49483E
+tetrimino:
+  default:
+    border: null
+    background: null
+    margin: 1
+    radius: 0
+  ghost:
+    border: { width: 2, color: 0x4F424C }
+    background: 0x2F1E2E
+  I: { background: 0x5BC4BF }
+  J: { background: 0x06B6EF }
+  L: { background: 0xF99B15 }
+  O: { background: 0xFEC418 }
+  T: { background: 0x815BA4 }
+  S: { background: 0x48B685 }
+  Z: { background: 0xEF6155 }
+
+
+    BASE_00 (0x2f1e2e),
+    BASE_01 (0x41323f),
+    BASE_02 (0x4f424c),
+    BASE_03 (0x776e71),
+    BASE_04 (0x8d8687),
+    BASE_05 (0xa39e9b),
+    BASE_06 (0xb9b6b0),
+    BASE_07 (0xe7e9db),
